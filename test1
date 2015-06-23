@@ -1,0 +1,4 @@
+import fl.transitions.*;
+import fl.transitions.easing.*;
+
+var mover:Tween = new Tween(circle,"x",Elastic.easeInOut, 50, 350,5, true)
